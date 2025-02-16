@@ -1,0 +1,35 @@
+
+h1 {
+    text-align: center;
+    color: white;
+}
+h2 {
+    text-align: center;
+    color: white;
+}
+section{
+    text-align: center;
+    color: white;
+}
+p {
+    color: black;
+}
+body{
+    background-color: #008FCC;
+}
+h3 {
+    text-align: center;
+    color: white;
+}
+img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+body, head{
+    max-width: 400px;
+    margin: 0 auto;
+}
+h1:hover {
+    color: black;
+}
