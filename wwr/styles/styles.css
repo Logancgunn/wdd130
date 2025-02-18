@@ -18,6 +18,9 @@ hero-msg h1{
 hero-msg h4{
     text-align: center;
 }
+.msg h2{
+    color: #27c1bc;
+}
 button-box{
     text-align: center;
 }
@@ -77,9 +80,13 @@ footer{
 footer a{
     text-decoration: none;
 }
-footer p {
+footer p a{
     font-size: 1.2em;
+    color: white;
 } 
 footer p a:hover{
     text-decoration: underline;
+}
+p {
+    color: white;
 }
