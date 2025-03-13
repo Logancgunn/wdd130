@@ -6,45 +6,80 @@ nav a{
     text-align: center;
     color: #27c1bc;
     text-decoration: none;
+    font-family: 'Tahoma', 'Verdana', 'Arial';
+    font-size: 1em;
+    padding: 35px;
 }
 nav a:hover {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: #5C77AD;
     text-decoration: underline
 }
-hero-msg h1{
+hero-msg h1, h4{
     text-align: center;
+    font-family: 'Tahoma', 'Verdana', 'Arial';
+    font-size: 1em;
+    line-height: 1.5em;
+    padding: 35px;
 }
-hero-msg h4{
+/* hero-msg h4{
     text-align: center;
-}
+    font-family: 'Tahoma', 'Verdana', 'Arial';
+    font-size: 1em;
+    line-height: 1.5em;
+} */
 .msg h2{
     color: #27c1bc;
+    font-family: 'Tahoma', 'Verdana', 'Arial';
+    font-size: 1em;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 35px;
 }
 button-box{
     text-align: center;
+    font-family: 'Tahoma', 'Verdana', 'Arial';
+    font-size: 1em;
 }
 main section{
     text-align: center;
+    font-family: 'Tahoma', 'Verdana', 'Arial';
+    font-size: 1em;
 }
 #background {
     height: 725px;
 }
 body{
     background-color: white;
+    font-family: 'Tahoma', 'Verdana', 'Arial';
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
 }
 header{
     background-color: #157F1F;
 }
 .book{
-    background-color: #ffffff;
-    color: #157F1F;
-    text-decoration: none;
-}
-.join{
     background-color: #157F1F;
     color: white;
+    text-align: center;
     text-decoration: none;
+    font-family: 'Tahoma', 'Verdana', 'Arial';
+    font-size: 1em;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.join{
+    background-color: #5C77AD;
+    color: white;
+    text-decoration: none;
+    font-family: 'Tahoma', 'Verdana', 'Arial';
+    text-align: center;
+    font-size: 1em;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover{
     background-color: #157F1F;
@@ -61,32 +96,62 @@ header{
 }
 .msg{
     background-color: #157F1F;
+
 }
 footer{
     background-color: #157F1F;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 .home-title{
     color: #27c1bc;
+    text-align: center;
+    font-family: 'Tahoma', 'Verdana', 'Arial';
+    font-size: 2em;
+    margin-top: 10px;
 }
 .icon{
-    width: 80px
+    width: 80px;
+    padding-top: 10px;
+    margin: 200px 0;
+    border: 10px solid #157f1f;
 }
 #hero-img{
     width: 100%;
+    /* margin: 200px 0;
+    border: 10px solid #157f1f; */
 }
 .logo{
     width: 80px;
+    /* margin: 200px 0;
+    border: 10px solid #157f1f; */
 }
 footer a{
     text-decoration: none;
+    font-family: 'Tahoma', 'Verdana', 'Arial';
+    font-size: 1em;
+    text-align: center;
+    margin: 200px 0;
+    border: 10px solid #157f1f;
 }
 footer p a{
     font-size: 1.2em;
     color: white;
+    font-family: 'Tahoma', 'Verdana', 'Arial';
+    font-size: 1em;
+    text-align: center;
+    margin: 200px 0;
+    border: 10px solid #157f1f;
 } 
 footer p a:hover{
     text-decoration: underline;
 }
 p {
     color: white;
+    font-family: 'Tahoma', 'Verdana', 'Arial';
+    font-size: 1em;
+    padding-top: 15px;
+}
+main section img {
+    box-sizing: border-box;
 }
