@@ -4,7 +4,7 @@
 }
 nav a{
     text-align: center;
-    color: #27c1bc;
+    color: white;
     text-decoration: none;
     font-family: 'Tahoma', 'Verdana', 'Arial';
     font-size: 1em;
@@ -217,6 +217,46 @@ nav {
     opacity: .6;
     transform: scale(1.1);
 }
+questions-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.rafting-children{
+    border: 10px solid #5C77AD;
+}
+.rafting-fun{
+    border: 10px solid #5C77AD;
+}
+.children h2{
+    color: #27c1bc;
+}
+.safety h2{
+    color: #27c1bc;
+}
+.benefits h2{
+    color: #27c1bc;
+}
+.bring h2{
+    color: #27c1bc;
+}
+.so-great h2{
+    color: #27c1bc;
+}
+.advance h2{
+    color: #27c1bc;
+}
+.main-questions h1{
+    background-color: #157F1F;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Tahoma', 'Verdana', 'Arial';
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 25px;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
