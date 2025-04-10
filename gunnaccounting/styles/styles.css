@@ -118,6 +118,30 @@ nav a:hover {
 .books-training img{
     width: 20% auto;
 }
+.intro h3{
+    font-size: 3em;
+    color: #a5911d;
+}
+.founder h3{
+    font-size: 2em;
+    color: #a5911d;
+}
+.founder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; 
+}
+.experience{
+    display: flex;
+    align-items: center;
+}
+.experience img {
+    margin-right: 20px; /* Space between image and text */
+}
+.experience h3 {
+    line-height: 1.5;
+}
 footer{
     background-color: #370429;
     padding: 25px 50px;
